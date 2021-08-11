@@ -1,4 +1,18 @@
+
 # VASITUM
+
+### Install packages
+##### Using this command to install packages
+` pip install -r requirements.txt  `
+
+### Setup 
+##### Create .env, add
+```
+set EMAIL_HOST_USER=host_mail
+set EMAIL_HOST_PASSWORD=host_password
+```
+### Runserver, continue as django
+
 
 ### **Documentations for login/signup using with/without gmail**
 
