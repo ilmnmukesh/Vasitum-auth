@@ -1,4 +1,18 @@
-﻿# VASITUM
+
+# VASITUM
+
+### Install packages
+##### Using this command to install packages
+` pip install -r requirements.txt  `
+
+### Setup 
+##### Create .env, add
+```
+set EMAIL_HOST_USER=host_mail
+set EMAIL_HOST_PASSWORD=host_password
+```
+### Runserver, continue as django
+
 
 ### **Documentations for login/signup using with/without gmail**
 
@@ -50,7 +64,7 @@
 ##### &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;JSON RESULT:
 
 ```
-		{
+	{
             "success": true,
             "errors": {},
             "tokens": {
@@ -58,7 +72,7 @@
                 "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...." // secure purpose remove token
             },
             "otp": 3633
-	    }
+	}
 ```
 
 ##### &emsp;&emsp; &emsp;&emsp;CASE 2: User already registered
@@ -79,7 +93,7 @@
 ##### &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;JSON RESULT:
 
 ```
-		{
+	{
             "success": false,
             "errors": {
                 "errors": [
@@ -156,7 +170,7 @@
 
 ```
         {
-			"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -183,7 +197,7 @@
 
 ```
         {
-		    "auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -211,7 +225,7 @@
 
 ```
         {
-			"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -239,7 +253,7 @@
 
 ```
         {
-			"auth_tokens":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_tokens":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -250,7 +264,7 @@
 ##### &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;JSON RESULT:
 
 ```
-        {
+       {
             "success": false,
             "errors": {
                 "auth_token": [
@@ -258,7 +272,7 @@
                 ]
             },
             "tokens": {}
-        }
+	}
 ```
 
 ### 3. Normal Login:
@@ -481,7 +495,7 @@
 
 ```
         {
-		    "auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -508,7 +522,7 @@
 
 ```
         {
-		    "auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -536,7 +550,7 @@
 
 ```
         {
-			"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
+		"auth_token":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -547,7 +561,7 @@
 ##### &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;JSON RESULT:
 
 ```
-        {
+	{
             "success": false,
             "errors": {
                 "auth_token": [
@@ -564,7 +578,7 @@
 
 ```
         {
-		    "ath_tokens":"eyJhbGciOiJSUzI......N08e7ww"
+		"ath_tokens":"eyJhbGciOiJSUzI......N08e7ww"
         }
 ```
 
@@ -618,7 +632,7 @@
 
 ```
         {
-			        "email":"ilmnmukesh@gmail.com"
+		"email":"ilmnmukesh@gmail.com"
         }
 ```
 
@@ -642,7 +656,7 @@
 
 ```
         {
-			"email":"ilmnmmmm@a.com"
+		"email":"ilmnmmmm@a.com"
         }
 ```
 
