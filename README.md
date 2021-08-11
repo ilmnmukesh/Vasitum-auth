@@ -1,4 +1,4 @@
-
+﻿
 # VASITUM
 
 ### Install packages
@@ -43,6 +43,8 @@ set EMAIL_HOST_PASSWORD=host_password
 	"tokens": dict, // jwt access, refresh tokens
 	"otp": int,// 4 digit otp
 ```
+##### IMAGE:
+![Image](/static/register.png)
 
 ##### &emsp;&emsp;EXAMPLES:
 
@@ -159,6 +161,8 @@ set EMAIL_HOST_PASSWORD=host_password
 	"errors": dict,
 	"tokens": dict, // jwt access, refresh tokens
 ```
+##### IMAGE:
+![Image](/static/google_register.png)
 
 ##### Using auth_token, server will fetch from google and google returns the corresponding user details. Validate using that email from google. Once validate completes, move on to main page using JWT access and refresh token.
 
@@ -304,6 +308,9 @@ set EMAIL_HOST_PASSWORD=host_password
 	"tokens": dict, // jwt access, refresh tokens
 	"is_verified": boolean
 ```
+
+##### IMAGE:
+![Image](/static/login.png)
 
 ##### &emsp;&emsp;EXAMPLES:
 
@@ -485,6 +492,9 @@ set EMAIL_HOST_PASSWORD=host_password
 	"tokens": dict, // jwt access, refresh tokens
 ```
 
+##### IMAGE:
+![Image](/static/google_login.png)
+
 ##### Using auth_token, server will fetch from google and google returns the corresponding user details. Validate using that email from google. Once validate completes, move on to main page using JWT access and refresh token.
 
 ##### &emsp;&emsp;EXAMPLES:
@@ -625,6 +635,9 @@ set EMAIL_HOST_PASSWORD=host_password
 	"errors": dict,
 	"otp": int, // four digit number
 ```
+
+##### IMAGE:
+![Image](/static/resend.png)
 
 ##### &emsp;&emsp; &emsp;&emsp;CASE 1: Email successfully send
 
